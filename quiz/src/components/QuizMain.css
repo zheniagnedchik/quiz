@@ -1,0 +1,55 @@
+@keyframes myanimation {
+    
+    to {transform: rotate(360deg);}
+}
+deg{
+    animation: myanimation 0.1s infinite  linear ;
+}
+.test{
+    color:green
+}
+.animate{
+    margin-left: 250px;
+    transition-property: margin-left;
+    transition-duration: 9s;
+    transition-timing-function: linear;
+}
+.animateTwo{
+    margin-left: 300px;
+    transition-property: margin-left;
+    transition-duration: 9s;
+    transition-timing-function: linear;
+}
+.nextQuestion{
+    width: 240px;
+height: 54px;
+color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+    margin-top: 90px;
+    margin-left: 32.22%;
+outline: none;
+background: #4C4C4E;
+border-radius: 32px;
+cursor: pointer;
+}
+.nextQuestion:disabled{
+    background: #CBC9C8;
+    cursor: unset;
+}
+
+.out{
+    outline: none;
+    width: 240px;
+height: 54px;
+margin-left: 2.77%;
+    background: #FFFFFF;
+border: 2px solid #4C4C4E;
+box-sizing: border-box;
+border-radius: 32px;
+font-weight: 500;
+font-size: 20px;
+line-height: 110%;
+color: #4C4C4E;
+
+}
