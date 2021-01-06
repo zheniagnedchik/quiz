@@ -49,7 +49,7 @@ function QuizMain() {
 
   useEffect(() => {
     fetch(
-      "https://cors-anywhere.herokuapp.com/https://portal-employee-service.herokuapp.com/interview"
+      "https://portal-employee-service.herokuapp.com/interview"
     )
       .then((res) => res.json())
       .then(
