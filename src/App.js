@@ -1,12 +1,19 @@
+import QuizMain from "./components/Quiz/QuizMain";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Reg from './components/Reg/Reg'
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Reg/>
+      <Router>
+        <Switch>
+         
+          <Route path="/" component={QuizMain}></Route>
+          
+        </Switch>
+      </Router>
     </div>
   );
 }
