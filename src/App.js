@@ -10,8 +10,9 @@ function App() {
       <Router>
         <Switch>
          
+         
           <Route path="/" component={QuizMain}></Route>
-          
+         
         </Switch>
       </Router>
     </div>
